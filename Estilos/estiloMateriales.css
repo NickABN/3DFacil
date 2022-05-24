@@ -1,0 +1,101 @@
+/*PAGINA DE MATERIALES*/
+@import url(/Paginas/Estilos/estiloHeaderFooter.css);
+
+.pagContenedor{
+    background-color: #FFE1A8;
+    height: fit-content;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 15px;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    flex-flow: row wrap;
+}
+
+/*Texto*/
+.pagContenedor h1{
+    color: #E26D5C;
+    font-size: xx-large;
+}
+
+.pagContenedor p{
+    font-size: x-large;
+    width: 75%;
+}
+
+
+.tipo h2{
+    color: #C9CBA3;
+}
+
+.propiedades ul li h4{
+    color: #FFE1A8;
+}
+
+/*Imagenes*/
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/*SUBCONTENEDORES*/
+.material{
+
+    text-align: center;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 200px;
+    
+    margin: 40px;
+    margin-bottom: 60px;
+    
+    background-color: #472D30;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px black; 
+    transition: 0.8s;
+}
+
+.card:hover{
+    height: fit-content;
+    transition: 12s;
+}
+
+.card:hover .imagen{
+    width: 250px;
+    height: 200px;
+
+    transition: 0.6s;
+}
+
+.card:hover .propiedades{
+    display:inline-block;
+
+    transition: 0.5s;
+}
+
+.imagen{
+    background-color: white;
+    width: 150px;
+    height: 150px; 
+    border-radius: 20px;
+    transform: translateY(-20%);
+
+    transition: 0.6s;
+}
+
+.propiedades{
+    display: none;
+    
+    transition: 0.5s;
+}

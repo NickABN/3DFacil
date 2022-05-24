@@ -1,0 +1,191 @@
+/*PAGINA DE INICIO*/
+@import url(/Paginas/Estilos/estiloHeaderFooter.css);
+
+.contenedor{
+    height: fit-content;
+    align-items: center;
+    padding: 15px;
+    
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    flex-flow: row wrap;
+}
+
+/*Imagenes*/
+
+.icon3D img{
+    height: 80px;
+}
+
+.astronautasFPIni{
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 0 0 7px 2px black;
+}
+
+.ventajasImp3DImg img{
+    height: 250px;
+    box-shadow: -10px -10px 6px #723d46;
+}
+
+.imagesSecondPage img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    margin: 25px;
+    box-shadow: 10px 10px 6px #472D30;
+}
+
+/*SUBCONTENEDORES*/
+
+.inicioFirstPageBackground{
+    background-color: #723d46   ;
+    height: fit-content;
+
+    align-content:center;
+    justify-content:space-around;
+    padding: 70px;
+}
+
+.contenidoInicioFirstPage{
+    /*Caracteristicas del contenedor*/
+    background: -webkit-radial-gradient(#C9CBA3, #FFE1A8 , #E26D5C);
+    
+    flex-flow: column wrap;
+    height: 500px;
+    width: 1000px;
+
+    color:#723d46;
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+
+    box-shadow: 0 5px 30px 2px black;
+}
+
+.wrapper{
+    display: flex;
+    height: 90px;
+    overflow: hidden;
+}
+
+.wrapper .static-txt{
+    top: 0;
+    color: white;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.wrapper .dynamic-txts{
+    margin: 0;
+    line-height: 90px;
+    height: 90px;
+    overflow: hidden;
+}
+
+.dynamic-txts li{
+    text-align: left;
+    list-style: none;
+    color: #723d46;
+    font-size: 60px;
+    font-weight: 500;
+    top: 0;
+    position: relative;
+    
+
+    animation: slide 9s steps(3) infinite; 
+}
+
+
+
+.opcionesFPage{
+    /*Caracteristicas del contenedor*/
+    height: 200px;
+    width: 700px;
+
+    text-align: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.inicioSecondPageBackground{
+    /*Caracteristicas del contenedor*/
+
+    justify-content: center;
+    align-content: flex-start;
+    text-align: center;
+    background-color: #723d46;
+    color: #FFE1A8;
+    
+    padding: 80px;
+}
+
+.contenidoSecondPageBackground{
+    /*Caracteristicas del contenedor*/
+    align-items: center;
+    text-align: center;
+    
+}
+
+.inicioThirdPageBackground{
+    justify-content: space-around;
+    align-content: center;
+    text-align: left;
+    background-color: #472D30;
+    color: #FFE1A8;
+    
+    padding: 80px;
+}
+
+.contenidoVentajas3D{
+    width: 500px;
+}
+
+/*Texto*/
+
+.opcion-FPage:hover{
+    color: #472D30;
+    transform: scale(1.2,1.2);
+}
+
+.opcion-FPage{
+    color: #723d46;
+    padding: 20px;
+}
+
+.type3D{
+    font-size: 70px;
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid #723d46;
+    width: 8ch;
+
+    animation: typing 3s steps(8),
+    blink .7s infinite step-end alternate;
+    animation-iteration-count: infinite;
+    overflow: hidden;
+}
+
+.typeEmpre{
+    font-size: 40px;
+}
+
+
+@keyframes blink{
+    50% {border-color: transparent;}
+}
+
+
+@keyframes slide {
+    100%{
+        top: -270px;
+    }
+}
+
+@keyframes typing{
+    from { width: 0;}
+    to { width: 110%;}
+}

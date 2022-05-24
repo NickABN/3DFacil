@@ -1,0 +1,106 @@
+/*PAGINA DE Header y Footer*/
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/*Contenedores*/
+header{
+    display: flex;
+    height: fit-content;
+    background-color: black;
+    justify-content: space-between;
+    align-content: center;
+    
+    padding: 15px;
+}
+
+footer{
+    display: flex;
+    height: fit-content;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+}
+
+.menu{
+    display: flex;
+    flex-flow: row wrap;
+    height: fit-content;
+    width: fit-content;
+    align-content: center;
+}
+
+.footerCorreo{
+    /*Caracteristicas del contenedor*/
+    flex-flow: column wrap;
+    height: fit-content;
+    width: fit-content;
+    align-content: center;
+}
+
+.footerContenedor{
+    height: fit-content;
+    align-items: center;
+    padding: 15px;
+    
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    flex-flow: row wrap;
+}
+/*Edicion de texto*/
+
+a{
+    text-decoration: none;
+    color: #723d46;
+}
+
+.nav-link:hover{
+    color: blanchedalmond;
+    transform: scale(1.1,1.1);
+}
+
+.nav-link{
+    color: #E26D5C;
+    padding: 20px;
+}
+
+.footerSocial h2{
+    color: #723d46;
+}
+/*Imagenes*/
+
+.logo img{
+    height: 80px;
+}
+
+.imag-usuario img{
+    height: 40px;
+}
+
+.imag-usuario img:hover{
+    transform: scale(1.2,1.2);
+}
+
+.footerCorreo img{
+    height: 50px;
+}
+
+.footerAstronauta img{
+    height: 200px;
+}
+
+.footerSocial img{
+    height: 50px;
+}

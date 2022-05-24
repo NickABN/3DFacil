@@ -1,0 +1,111 @@
+/*PAGINA DE PROTOTIPADO*/
+@import url(/Paginas/Estilos/estiloHeaderFooter.css);
+
+
+.pagContenedor{
+    background-color: #472D30;
+    height: fit-content;
+    align-items: center;
+    padding: 15px;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+/*Texto*/
+.serviciosPrototipado h3{
+    width: 500px;
+}
+
+.programas li{
+    list-style: square ;
+}
+
+.titulo{
+    color: #E26D5C;
+    font-size: 50px;
+}
+
+.contacto a h1,h2{
+    color: #FFE1A8;
+    
+}
+
+/*Imagenes*/
+.logos img{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.logos{
+    width: 400px;
+}
+
+.pasos img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    
+}
+
+.sombra img{
+    box-shadow: 15px 15px 3px black;
+}
+
+/*SUBCONTENEDORES*/
+.serviciosPrototipado{
+    color: #FFE1A8;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.procesoPrototipado{
+    color: #C9CBA3;
+    flex-flow: column wrap;
+}
+
+.pasos{
+    background-color: #472D30;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    flex-flow: row wrap;
+}
+
+.contacto{
+    margin: 3rem;
+}
+
+.contacto:hover{
+    color: #C9CBA3;
+    transform: scale(1.2,1.2) rotate(5deg);
+}
+
+/*Circulo*/
+span.circuloRojo {
+    background: #E26D5C;
+     border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 1.6em;
+    margin: 15px;
+    text-align: center;
+    width: 1.6em; 
+  }

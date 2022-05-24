@@ -1,0 +1,80 @@
+/*PAGINA DE IMPRESION*/
+@import url(/Paginas/Estilos/estiloHeaderFooter.css);
+
+.pagContenedor{
+    background-color: #472D30;
+    height: fit-content;
+    align-items: center;
+    padding: 15px;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    flex-flow: row wrap;
+}
+
+/*Texto*/
+.galeriaContenido p{
+    color: #FFE1A8;
+}
+
+.impresion3DUsos section h1{
+    color: #FFE1A8;
+    font-style: italic;
+    font-size: xx-large;
+}
+
+.conocenos a{
+    color: #C9CBA3;
+}
+
+.conocenos a:hover{
+    color: #FFE1A8;
+    font-style: italic;
+}
+
+/*Imagenes*/
+.galeriaContenido img{
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.imag3DMachine img{
+    height: 250px;
+}
+
+.imag3D img{
+    height: 300px;
+}
+
+/*SUBCONTENEDORES*/
+.galeria{
+    justify-content: center;
+}
+
+.galeriaContenido{
+    margin: 20px 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.galeriaContenido:hover{
+    background-color: #723D46;
+    box-shadow: 0 4px 2px black;
+    transform: scale(1.2,1.2);   
+}
+
+.impresion3DUsos{
+    color: #C9CBA3;
+    justify-content: space-around;
+    text-align: left;
+}   
+
+.conocenos{
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
